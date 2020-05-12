@@ -22,7 +22,18 @@ The project is part of the course [02180 Introduction to Artificial Intelligence
 * `logic.py`: Useful functions for operations on logic formulas
 * `ui.py`: Functions for User Interface
 
-### Example of usage
+### Usage
+
+The agent can accept logic formulas that contain the following symbols:
+* Parentheses: '()'
+* Capital Letters: A,B, etc.
+* Negation: '~'
+* Disjunction: '|'
+* Conjunction: '&'
+* Implication: '>>'
+* Equvalence: 'Equivalent(A,B)'
+
+#### Example of usage
 ```
 ------- MENU -------
 1. Add new belief
